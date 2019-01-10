@@ -3,6 +3,9 @@ id: Smart-Contract
 title: Smart Contract
 sidebar_label: Smart Contract
 ---
+
+## Smart Contract
+
 Smart Contracts empfangen und führen Transaktionen innerhalb des Blocks aus, um die Variablen des Smart Contract innerhalb der Blockchain zu erhalten und einen unwiderruflichen Beweis zu erbringen. IOST implementiert allgemeine ABI-Schnittstellen, Plug-and-Play-Mehrsprachenunterstützung und kann das Ergebnis des Konsenses generieren. Dies hat die Benutzerfreundlichkeit der Blockchain erheblich verbessert.
 
 
