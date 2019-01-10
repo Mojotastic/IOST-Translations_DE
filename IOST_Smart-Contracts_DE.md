@@ -57,11 +57,9 @@ Die Smart Contract Engine von IOST besteht aus drei Teilen: Monitor, VM, Host. M
 
 Transaktionen unterstützen multiple Signaturen. Innerhalb eines Contracts können Sie mit `RequireAuth()` prüfen, ob der aktuelle Kontext die Signatur einer bestimmten ID trägt. Aufrufe zwischen Smart Contracts leiten Signaturberechtigungen weiter. Wenn `A.a` beispielsweise `B.b` aufruft, ist die Autorisierung zu `B.b` von einem Benutzer implizit, wenn `A.a` aufgerufen wird.
 
-
 Smart Contracts können den Stapel von Aufrufen überprüfen und Fragen wie "Wer hat diese ABI aufgerufen" beantworten. Dies ermöglicht es, dass bestimmte Vorgänge existieren.
 
 Smart Contracts haben spezielle Berechtigungen, wie z.B. ein Upgrade. Diese können mit `can_update()` implementiert werden.
-
 
 
 ## Ergebnis eines Aufrufs
