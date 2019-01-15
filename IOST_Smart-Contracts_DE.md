@@ -6,7 +6,7 @@ sidebar_label: Smart Contract
 
 ## Smart Contract
 
-Smart Contracts empfangen und führen Transaktionen innerhalb des Blocks aus, um die Variablen des Smart Contract innerhalb der Blockchain zu erhalten und einen unwiderruflichen Beweis zu erbringen. IOST implementiert allgemeine ABI-Schnittstellen, Plug-and-Play-Mehrsprachenunterstützung und kann das Ergebnis des Konsenses generieren. Dies hat die Benutzerfreundlichkeit der Blockchain erheblich verbessert.
+Smart Contracts empfangen und führen Transaktionen innerhalb des Blocks aus, um die Variablen des Smart Contracts innerhalb der Blockchain zu erhalten und einen unwiderruflichen Nachweis zu erbringen. IOST implementiert allgemeine ABI-Schnittstellen, Plug-and-Play-Mehrsprachenunterstützung und kann das Ergebnis des Konsenses generieren. Dies hat die Benutzerfreundlichkeit der Blockchain erheblich verbessert.
 
 
 ## ABI Schnittstelle
@@ -62,7 +62,7 @@ Smart Contracts können den Stapel von Aufrufen überprüfen und Fragen wie "Wer
 Smart Contracts haben spezielle Berechtigungen, wie z.B. ein Upgrade. Diese können mit `can_update()` implementiert werden.
 
 
-## Ergebnis eines Aufrufs
+## Ergebnis eines Aufrufs (Call)
 
 Nach der Ausführung generiert der Smart Contract einen `TxReceipt` in den Block und sucht nach einem Konsens. Sie können RPC verwenden, um die TxReceipts von On-Chain-Transaktionen zu verfolgen.
 
