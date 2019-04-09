@@ -12,7 +12,7 @@ original_id: Account
 
 Das Konto-Berechtigungssystem von IOST basiert auf dem Mechanismus von öffentlich-privaten Schlüsselpaaren. Durch die Einrichtung von Owner Schlüssel und Active Schlüssel können Benutzer bequem mehrere Account-Systeme verwalten und gleichzeitig nach Belieben neue Berechtigungen und geheime Gewichtungen einrichten. Dies ermöglicht viele kundenspezifische Managementfunktionen.
 
-## Grundlagen des Kontensystems
+## Grundlagen des Systems für Konten
 
 Ein IOST-Konto wird mit ID und Berechtigungen erstellt. Ein Konto kann mehrere Berechtigungen haben und hat mindestens die Berechtigungen `owner` und `active`. Jede Berechtigung registriert mehrere Elemente, wobei ein Element ein base58-kodierter öffentlicher Schlüssel oder ein Berechtigungspaar von einem anderen Konto ist.
 
