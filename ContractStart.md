@@ -33,7 +33,7 @@ Tx | Transaktion, der Zustand auf der Blockchain muss durch Senden von tx geänd
 
 Die Entwicklung und Bereitstellung von Smart Contracts erfordert [iwallet](4-running-iost-node/iWallet.md). Gleichzeitig kann [das Starten eines lokalen Testknotens](4-running-iost-node/LocalServer.md) das Debugging erleichtern. 
 
-### Import des anfänglichen Kontos ```admin```` für iwallet
+### Import des anfänglichen Kontos ```admin``` für iwallet
 
 Um den Test abzuschließen, müssen Sie ein Konto für iwallet importieren.   
 Sie können das Konto "admin" für den lokalen Testknoten importieren.
